@@ -5,7 +5,7 @@ print $cgi->header;
 print $cgi->start_html('Program 8b');
 print $cgi->h1('<center>Server Page Visited Informations</center>');
 print $cgi->hr;
-$count_file="c:/count.txt";
+$count_file="/var/www/html/cgi-enabled/count.txt";
 if(open(FILE,"<".$count_file)) {
 $no_accesses=<FILE>;
 close(FILE);
