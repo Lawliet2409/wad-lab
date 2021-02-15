@@ -21,6 +21,6 @@ server";
 print "cannot read the counter database for visitors";
 }
 print "Welcome User";
-print "<BR><BR>This page has been accessed <font color=red size=10> 
+print "<BR><BR>This page has been accessed <font> color=red size=10> 
 $no_accesses </font> times from the creation";
 print $cgi->end_html;
